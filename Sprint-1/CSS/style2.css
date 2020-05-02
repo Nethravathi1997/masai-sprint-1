@@ -1,0 +1,113 @@
+ div>h1 {
+     color: red;
+     font-size: 40;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-left: 50px;
+     margin-bottom: 0px;
+     margin-right: 250px;
+     margin-top: 0px;
+     float: left;
+ }
+
+ div>h2 {
+     color: rgb(55, 0, 255);
+     font-size: 25;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ h2~p {
+     font-size: 18px;
+ }
+
+ #id1 {
+     float: left;
+     margin: 10px;
+     margin-top: 5px;
+     height: 270px;
+     width: 500px;
+ }
+#id2 {
+     float: right;
+      margin-right: 50px;
+      margin-top: 20px;
+      text-decoration: none;
+
+ }
+
+ @media only screen and (max-width: 768px) {
+     div>h1 {
+         color: red;
+         font-size: 32;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         margin-left: 50px;
+         margin-bottom: 0px;
+         margin-right: 0px;
+         margin-top: 0px;
+         float: left;
+     }
+     div>h2 {
+         color: rgb(55, 0, 255);
+         font-size: 25;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         margin-right: 2px;
+         margin-top: 0px;
+     }
+     h2~p {
+         font-size: 18px;
+     }
+     #id1 {
+         float: left;
+         margin: 10px;
+         margin-top: 5px;
+         height: 180px;
+         width: 400px;
+     }
+     #id2 {
+        
+        float: right;
+         margin-right: 10px;
+         margin-top: 10px;
+         padding-top: 5px;
+         clear:both;
+   
+    }
+
+
+    @media only screen and (max-width: 600px) {
+        div>h1 {
+            color: red;
+            font-size: 30;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 50px;
+            margin-bottom: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+            float: left;
+        }
+        div>h2 {
+            color: rgb(55, 0, 255);
+            font-size: 25;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-right: 2px;
+            margin-top: 0px;
+        }
+        h2~p {
+            font-size: 18px;
+        }
+        #id1 {
+            float: left;
+            margin: 10px;
+            margin-top: 5px;
+            height: 250px;
+            width: 450px;
+        }
+        #id2 {
+            
+           float: right;
+            margin-right: 10px;
+            margin-top: 10px;
+            padding-top: 5px;
+            clear:both;
+      
+       }
+   

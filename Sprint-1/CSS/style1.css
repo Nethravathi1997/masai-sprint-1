@@ -1,0 +1,227 @@
+.flex-box {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    height: 90%;
+    width: 100%;
+}
+
+body {
+    background-image: url("../Resources/b2.jpg");
+    background-position: cover;
+}
+
+#item1 {
+    background-image: url("../Resources/a.jpg");
+    margin: 0px 10px 10px 0px;
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+#item2 {
+    background-image: url("../Resources/b4.jpg");
+    margin: 0px 0px 10px 10px;
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+#item3 {
+    background-image: url("../Resources/b.jpg");
+    margin: 10px 10px 0px 0px;
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+#item4 {
+    background-image: url("../Resources/d.jpg");
+    margin: 10px 0px 0px 10px;
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.class5 {
+    font-family: cursive;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: rgb(255, 251, 0);
+    font-size: 35px;
+}
+
+div>h3 {
+    font-size: 60;
+}
+
+div>p {
+    font-size: 40;
+}
+
+.but {
+    margin-left: 50px;
+    border: none;
+    font-size: 35px;
+    transition: 0.6s ease;
+    color: black;
+    background-color: rgb(11, 175, 224);
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.but:hover {
+    background-color: yellowgreen;
+    color: black;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .flex-box {
+        display: grid;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 50% 50%;
+        height: 90%;
+        width: 100%;
+    }
+    
+    #item1 {
+        background-image: url("../Resources/a.jpg");
+        margin: 0px 10px 10px 0px;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        background-size: cover;
+    }
+    #item2 {
+        background-image: url("../Resources/b4.jpg");
+        margin: 0px 0px 10px 10px;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        background-size: cover;
+    }
+    #item3 {
+        background-image: url("../Resources/b.jpg");
+        margin: 10px 10px 0px 0px;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        background-size: cover;
+    }
+    #item4 {
+        background-image: url("../Resources/d.jpg");
+        margin: 10px 0px 0px 10px;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        background-size: cover;
+    }
+    div>h3 {
+        font-size: 30;
+    }
+    div>p {
+        font-size: 20;
+    }
+    .but {
+        margin-left: 100px;
+        border: none;
+        font-size: 25px;
+        transition: 0.6s ease;
+        color: black;
+        background-color: rgb(11, 175, 224);
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    .class5 {
+        font-family: cursive;
+        float: left;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        color: rgb(255, 251, 0);
+        font-size: 25px;
+    }
+    .but:hover {
+        background-color: yellowgreen;
+        color: black;
+        margin-top: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .flex-box {
+        display: grid;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 50% 50%;
+        height: 90%;
+        width: 100%;
+    }
+    
+    #item1 {
+        background-image: url("../Resources/a.jpg");
+        margin: 0px 10px 10px 0px;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        background-size: cover;
+    }
+    #item2 {
+        background-image: url("../Resources/b4.jpg");
+        margin: 0px 0px 10px 10px;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        background-size: cover;
+    }
+    #item3 {
+        background-image: url("../Resources/b.jpg");
+        margin: 10px 10px 0px 0px;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        background-size: cover;
+    }
+    #item4 {
+        background-image: url("../Resources/d.jpg");
+        margin: 10px 0px 0px 10px;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        background-size: cover;
+    }
+    div>h3 {
+        font-size: 20;
+    }
+    div>p {
+        font-size: 10;
+    }
+    .but {
+        margin-left: 100px;
+        border: none;
+        font-size: 25px;
+        transition: 0.6s ease;
+        color: black;
+        background-color: rgb(11, 175, 224);
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    .class5 {
+        font-family: cursive;
+        float: left;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        color: rgb(255, 251, 0);
+        font-size: 15px;
+    }
+    .but:hover {
+        background-color: yellowgreen;
+        color: black;
+        margin-top: 50px;
+    }
+}
