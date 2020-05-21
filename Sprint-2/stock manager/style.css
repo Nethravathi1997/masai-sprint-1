@@ -1,0 +1,52 @@
+* {
+    padding: 10px;
+}
+
+table, td {
+    /* border: 1px solid black; */
+    border-spacing: 0px;
+    margin-top: 30px;
+    width: 470px;
+    padding-left: 0px;
+    text-align: center;
+    font-weight: 800;
+}
+
+body {
+    background-image: url("3.jpg");
+    background-size: cover;
+}
+
+#h1 {
+    padding: 0px;
+    margin-top: 0px;
+    color: white;
+}
+
+table {
+    border: 1px transparent;
+}
+
+#id1 {
+    padding-left: 70px;
+}
+
+#id2 {
+    padding-right: 70px;
+}
+
+#select {
+    width: 195px;
+}
+
+#but {
+    background-color: rgb(26, 119, 226);
+    color: white;
+    border-radius: 5px;
+}
+#th{
+    background-color: rgb(122, 122, 236);
+}
+#tr{
+    background-color: rgb(193, 193, 236);
+}
